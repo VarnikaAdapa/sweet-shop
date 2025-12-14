@@ -1,4 +1,18 @@
-venv/
+# Python
 __pycache__/
 *.pyc
-.env
+.venv/
+venv/
+
+# Databases
+*.db
+
+# Coverage
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
