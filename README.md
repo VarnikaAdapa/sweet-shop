@@ -195,7 +195,7 @@ It demonstrates real-world practices such as JWT-based authentication, role-base
 
 
 
-```bash
+``bash
 
 # Clone the repository
 
