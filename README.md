@@ -316,40 +316,40 @@ All code was reviewed, understood, and integrated by me, and AI was used strictl
 ## 📸 Screenshots
 
 ### Project Setup & API
-![Project Structure](screenshots/1.png)
-![Uvicorn Running](screenshots/2.png)
-![Swagger Docs 1](screenshots/3.png)
-![Swagger Docs 2](screenshots/4.png)
+![Project Structure](screenshots/a.png)
+![Uvicorn Running](screenshots/b.png)
+![Swagger Docs 1](screenshots/c.png)
+![Swagger Docs 2](screenshots/d.png)
 
 ### Authentication
-![Login Page](screenshots/5.png)
+![Login Page](screenshots/e.png)
 
 ### Customer Experience
-![Customer Home](screenshots/6.png)
-![List Sweets](screenshots/7.png)
-![After Purchase](screenshots/8.png)
-![Search by Price](screenshots/9.png)
+![Customer Home](screenshots/f.png)
+![List Sweets](screenshots/g.png)
+![After Purchase](screenshots/h.png)
+![Search by Price](screenshots/i.png)
 
 ### Admin Experience
-![Admin Dashboard](screenshots/10.png)
-![Admin Restock](screenshots/11.png)
-![Admin Delete Sweet](screenshots/12.png)
+![Admin Dashboard](screenshots/j.png)
+![Admin Restock](screenshots/k.png)
+![Admin Delete Sweet](screenshots/l.png)
 
 ### Development Progress
-![During Development](screenshots/13.png)
+![During Development](screenshots/m.png)
 
 ### Testing
-![Pytest Results](screenshots/14.png)
-![Test Coverage](screenshots/15.png)
+![Pytest Results](screenshots/n.png)
+![Test Coverage](screenshots/o.png)
 
 ### Git & Version Control
-![Git Status](screenshots/16.png)
-![Git Add](screenshots/17.png)
-![Git Commit](screenshots/18.png)
-![Git Push](screenshots/19.png)
-![Git Remove DB](screenshots/20.png)
-![Final Git Status](screenshots/21.png)
-![GitHub Repository](screenshots/22.png)
+![Git Status](screenshots/p.png)
+![Git Add](screenshots/q.png)
+![Git Commit](screenshots/r.png)
+![Git Push](screenshots/s.png)
+![Git Remove DB](screenshots/t.png)
+![Final Git Status](screenshots/u.png)
+![GitHub Repository](screenshots/v.png)
 
 
 
