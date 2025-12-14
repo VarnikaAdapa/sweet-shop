@@ -316,40 +316,40 @@ All code was reviewed, understood, and integrated by me, and AI was used strictl
 ## 📸 Screenshots
 
 ### Project Setup & API
-![Project Structure](screenshots/inside-root.png)
-![Uvicorn Running](screenshots/uvicorn-running.png)
-![Swagger Docs 1](screenshots/localhost-docs-1.png)
-![Swagger Docs 2](screenshots/localhost-docs-2.png)
+![Project Structure](screenshots/1.png)
+![Uvicorn Running](screenshots/2.png)
+![Swagger Docs 1](screenshots/3.png)
+![Swagger Docs 2](screenshots/4.png)
 
 ### Authentication
-![Login Page](screenshots/login-page.png)
+![Login Page](screenshots/5.png)
 
 ### Customer Experience
-![Customer Home](screenshots/final-home-view-for-customer.png)
-![List Sweets](screenshots/listing-sweets.png)
-![After Purchase](screenshots/listing-after-purchase.png)
-![Search by Price](screenshots/search-price-no-results.png)
+![Customer Home](screenshots/6.png)
+![List Sweets](screenshots/7.png)
+![After Purchase](screenshots/8.png)
+![Search by Price](screenshots/9.png)
 
 ### Admin Experience
-![Admin Dashboard](screenshots/admin-home-after-adding.png)
-![Admin Restock](screenshots/admin-after-restocking.png)
-![Admin Delete Sweet](screenshots/admin-home-after-deleting.png)
+![Admin Dashboard](screenshots/10.png)
+![Admin Restock](screenshots/11.png)
+![Admin Delete Sweet](screenshots/12.png)
 
 ### Development Progress
-![During Development](screenshots/homepage-while-developing.png)
+![During Development](screenshots/13.png)
 
 ### Testing
-![Pytest Results](screenshots/pytest-v.png)
-![Test Coverage](screenshots/tests-coverage.png)
+![Pytest Results](screenshots/14.png)
+![Test Coverage](screenshots/15.png)
 
 ### Git & Version Control
-![Git Status](screenshots/git-status.png)
-![Git Add](screenshots/git-add.png)
-![Git Commit](screenshots/git-commit.png)
-![Git Push](screenshots/git-push.png)
-![Git Remove DB](screenshots/git-rm.png)
-![Final Git Status](screenshots/final-git-status.png)
-![GitHub Repository](screenshots/git-repo.png)
+![Git Status](screenshots/16.png)
+![Git Add](screenshots/17.png)
+![Git Commit](screenshots/18.png)
+![Git Push](screenshots/19.png)
+![Git Remove DB](screenshots/20.png)
+![Final Git Status](screenshots/21.png)
+![GitHub Repository](screenshots/22.png)
 
 
 
