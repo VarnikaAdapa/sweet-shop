@@ -316,13 +316,17 @@ All code was reviewed, understood, and integrated by me, and AI was used strictl
 ## 📸 Screenshots
 
 ### Project Setup & API
-![Project Structure](screenshots/a.png)
-![Uvicorn Running](screenshots/b.png)
-![Swagger Docs 1](screenshots/c.png)
-![Swagger Docs 2](screenshots/d.png)
+1. Project Structure
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/5b8031dc-825a-4bbb-bcac-81495ec4c06f" />
+
+2. Uvicorn Running
+
+3. Swagger Docs 1
+
+4. Swagger Docs 2
 
 ### Authentication
-![Login Page](screenshots/e.png)
+5. Login Page
 
 ### Customer Experience
 ![Customer Home](screenshots/f.png)
