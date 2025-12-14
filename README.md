@@ -1,8 +1,8 @@
-\# Sweet Shop Management System
+# Sweet Shop Management System
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -18,109 +18,106 @@ It demonstrates real-world practices such as JWT-based authentication, role-base
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
-\### Backend
+### Backend
 
-\- Python 3
+- Python 3
 
-\- FastAPI
+- FastAPI
 
-\- SQLAlchemy
+- SQLAlchemy
 
-\- SQLite
+- SQLite
 
-\- JWT Authentication
+- JWT Authentication
 
-\- Pytest (with coverage)
+- Pytest (with coverage)
 
 
 
-\### Frontend
+### Frontend
 
-\- React (Create React App)
+- React (Create React App)
+- JavaScript (ES6)
+- Fetch API
 
-\- JavaScript (ES6)
 
-\- Fetch API
 
+### Tooling \& Dev Practices
 
+- Test-Driven Development (TDD)
 
-\### Tooling \& Dev Practices
+- Git \& GitHub
 
-\- Test-Driven Development (TDD)
+- AI-assisted development (documented)
 
-\- Git \& GitHub
 
-\- AI-assisted development (documented)
 
 
 
+## Features
 
 
-\## Features
 
+### Authentication
 
+- User registration and login
 
-\### Authentication
+- JWT-based authentication
 
-\- User registration and login
+- Role-based access (Admin / Normal User)
 
-\- JWT-based authentication
 
-\- Role-based access (Admin / Normal User)
 
+### Sweet Management
 
+- Add new sweets (Admin only)
 
-\### Sweet Management
+- View all available sweets
 
-\- Add new sweets (Admin only)
+- Update sweet details (price, quantity)
 
-\- View all available sweets
+- Delete sweets (Admin only)
 
-\- Update sweet details (price, quantity)
 
-\- Delete sweets (Admin only)
 
+### Inventory Management
 
+- Purchase sweets (quantity decreases)
 
-\### Inventory Management
+- Restock sweets (Admin only)
 
-\- Purchase sweets (quantity decreases)
+- Purchase button disabled when out of stock
 
-\- Restock sweets (Admin only)
 
-\- Purchase button disabled when out of stock
 
+### Search \& Filtering
 
+- Search sweets by name
 
-\### Search \& Filtering
+- Search sweets by category
 
-\- Search sweets by name
+- Search sweets by price range
 
-\- Search sweets by category
 
-\- Search sweets by price range
 
+### Security
 
+- Protected API routes using JWT
 
-\### Security
+- Admin-only access enforced on sensitive operations
 
-\- Protected API routes using JWT
 
-\- Admin-only access enforced on sensitive operations
 
 
+## API Endpoints
 
 
 
-\## API Endpoints
-
-
-
-\### Authentication
+### Authentication
 
 | Method | Endpoint | Description |
 
@@ -134,7 +131,7 @@ It demonstrates real-world practices such as JWT-based authentication, role-base
 
 
 
-\### Sweets (Protected)
+### Sweets (Protected)
 
 | Method | Endpoint | Description |
 
@@ -152,7 +149,7 @@ It demonstrates real-world practices such as JWT-based authentication, role-base
 
 
 
-\### Inventory
+### Inventory
 
 | Method | Endpoint | Description |
 
@@ -164,7 +161,7 @@ It demonstrates real-world practices such as JWT-based authentication, role-base
 
 
 
-\### Health Check
+### Health Check
 
 | Method | Endpoint | Description |
 
@@ -174,19 +171,19 @@ It demonstrates real-world practices such as JWT-based authentication, role-base
 
 
 
-\## How to Run the Project Locally
+## How to Run the Project Locally
 
 
 
-\### Prerequisites
+### Prerequisites
 
-\- Python 3.10+
+- Python 3.10+
 
-\- Node.js 18+
+- Node.js 18+
 
-\- npm
+- npm
 
-\- Git
+- Git
 
 
 
@@ -194,13 +191,13 @@ It demonstrates real-world practices such as JWT-based authentication, role-base
 
 
 
-\### Backend Setup
+### Backend Setup
 
 
 
 ```bash
 
-\# Clone the repository
+# Clone the repository
 
 git clone <your-repo-url>
 
@@ -208,31 +205,31 @@ cd sweet-shop
 
 
 
-\# Create virtual environment
+# Create virtual environment
 
 python -m venv venv
 
 
 
-\# Activate virtual environment
+# Activate virtual environment
 
-\# Windows
+# Windows
 
 venv\\Scripts\\activate
 
-\# Mac/Linux
+# Mac/Linux
 
 source venv/bin/activate
 
 
 
-\# Install backend dependencies
+# Install backend dependencies
 
 pip install -r requirements.txt
 
 
 
-\# Run backend server
+# Run backend server
 
 uvicorn app.main:app --reload
 
@@ -253,13 +250,13 @@ cd frontend
 
 
 
-\# Install dependencies
+# Install dependencies
 
 npm install
 
 
 
-\# Start frontend
+# Start frontend
 
 npm start
 
@@ -273,7 +270,7 @@ http://localhost:3000
 
 
 
-\## My AI Usage
+## My AI Usage
 
 
 
@@ -281,39 +278,78 @@ I used ChatGPT as an AI assistant throughout the development of this project.
 
 
 
-\### Tools Used
+### Tools Used
 
-\- ChatGPT (OpenAI)
-
-
-
-\### How I Used AI
-
-\- To understand the assignment requirements and break them down into backend and frontend tasks.
-
-\- To design REST API endpoints using FastAPI and ensure they matched the specification.
-
-\- To write and debug backend logic including authentication, authorization, and database interactions.
-
-\- To write and fix pytest test cases following a Test-Driven Development (TDD) approach.
-
-\- To debug failing tests and understand error messages.
-
-\- To integrate the React frontend with the backend API.
-
-\- To resolve frontend issues related to state management, API calls, and conditional rendering.
-
-\- To understand CORS issues and properly configure the backend.
-
-\- To review and validate my final code structure and implementation.
+- ChatGPT (OpenAI)
 
 
 
-\### Reflection
+### How I Used AI
+
+- To understand the assignment requirements and break them down into backend and frontend tasks.
+
+- To design REST API endpoints using FastAPI and ensure they matched the specification.
+
+- To write and debug backend logic including authentication, authorization, and database interactions.
+
+- To write and fix pytest test cases following a Test-Driven Development (TDD) approach.
+
+- To debug failing tests and understand error messages.
+
+- To integrate the React frontend with the backend API.
+
+- To resolve frontend issues related to state management, API calls, and conditional rendering.
+
+- To understand CORS issues and properly configure the backend.
+
+- To review and validate my final code structure and implementation.
+
+
+
+### Reflection
 
 Using AI significantly improved my development workflow. It helped me debug issues faster, understand unfamiliar concepts more clearly, and stay aligned with best practices.  
 
 All code was reviewed, understood, and integrated by me, and AI was used strictly as an assistant rather than a replacement for my own work.
+
+
+##  Screenshots
+
+### Project Setup & API
+![Project Structure](screenshots/inside root.png)
+![Uvicorn Running](screenshots/uvicorn running.png)
+![Swagger Docs 1](screenshots/localhost-docs-1.png)
+![Swagger Docs 2](screenshots/localhost-docs-2.png)
+
+### Authentication
+![Login Page](screenshots/login page.png)
+
+### Customer Experience
+![Customer Home](screenshots/final home view for customer.png)
+![List Sweets](screenshots/listing sweets.png)
+![After Purchase](screenshots/listing after purchase.png)
+![Search by Price](screenshots/searching with price and no results in that range.png)
+
+### Admin Experience
+![Admin Dashboard](screenshots/admin homepage after adding features.png)
+![Admin Restock](screenshots/admin after restocking.png)
+![Admin Delete Sweet](screenshots/admin homepage after deleting.png)
+
+### Development Progress
+![During Development](screenshots/homepage while developing.png)
+
+### Testing
+![Pytest Results](screenshots/pytest -v.png)
+![Test Coverage](screenshots/tests coverage.png)
+
+### Git & Version Control
+![Git Status](screenshots/git status.png)
+![Git Add](screenshots/git add.png)
+![Git Commit](screenshots/git commit.png)
+![Git Push](screenshots/git push.png)
+![Git Remove DB](screenshots/git rm.png)
+![Final Git Status](screenshots/final git status.png)
+![GitHub Repository](screenshots/git repo.png)
 
 
 
